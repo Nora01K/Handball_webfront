@@ -1,7 +1,7 @@
 import { ShellBar, StandardListItem} from "@ui5/webcomponents-react";
 import React from "react";
 
-export default function Navbar(){
+export default function HomeNavbar(){
         return (
         <>
         <ShellBar

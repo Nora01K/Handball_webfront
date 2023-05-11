@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from "../../components/HomeNavbar/Navbar";
+import HomeNavbar from "../../components/HomeNavbar/HomeNavbar";
 import Login from "../../components/Login/Login";
 import { FlexBox } from "@ui5/webcomponents-react";
 import HomeContent from "../../components/HomeContent/HomeContent";
@@ -9,7 +9,7 @@ class Home extends React.Component {
     state = {}
     render() {
         return (<>
-        <Navbar/>
+        <HomeNavbar/>
         <FlexBox direction='Row' alignItems='Center' justifyContent='Center' className='Flexbox-Home'>
         <HomeContent/>
         <Login/>
