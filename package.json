@@ -1,13 +1,15 @@
 {
-  
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ui5/webcomponents": "~1.12.2",
-    "@ui5/webcomponents-fiori": "~1.12.2",
-    "@ui5/webcomponents-icons": "~1.12.2",
-    "@ui5/webcomponents-react": "^1.13.1",
+    "@ui5/webcomponents": "^1.13.1",
+    "@ui5/webcomponents-fiori": "^1.13.1",
+    "@ui5/webcomponents-icons": "^1.13.1",
+    "@ui5/webcomponents-icons-business-suite": "^1.13.1",
+    "@ui5/webcomponents-icons-tnt": "^1.13.1",
+    "@ui5/webcomponents-react": "^1.15.1",
+    "@ui5/webcomponents-react-charts": "^1.15.0",
     "eslint": "^8.39.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
