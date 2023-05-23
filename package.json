@@ -3,17 +3,17 @@
   "version": "0.0.1 alpha",
   "private": true,
   "dependencies": {
-    "@ui5/webcomponents": "^1.13.1",
-    "@ui5/webcomponents-fiori": "^1.13.1",
-    "@ui5/webcomponents-icons": "^1.13.1",
-    "@ui5/webcomponents-icons-business-suite": "^1.13.1",
-    "@ui5/webcomponents-icons-tnt": "^1.13.1",
+    "@ui5/webcomponents": "^1.13.3",
+    "@ui5/webcomponents-fiori": "^1.13.3",
+    "@ui5/webcomponents-icons": "^1.13.3",
+    "@ui5/webcomponents-icons-business-suite": "^1.13.3",
+    "@ui5/webcomponents-icons-tnt": "^1.13.3",
     "@ui5/webcomponents-react": "^1.15.1",
     "@ui5/webcomponents-react-charts": "^1.15.0",
-    "eslint": "^8.39.0",
+    "eslint": "^8.41.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0",
+    "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -43,6 +43,6 @@
   },
   "devDependencies": {
     "@ui5/webcomponents-cypress-commands": "^1.12.0",
-    "cypress": "^12.11.0"
+    "cypress": "^12.12.0"
   }
 }
