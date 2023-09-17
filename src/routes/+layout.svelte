@@ -7,6 +7,10 @@
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import Navbar from '../components/Navbar.svelte';
+	import { t, locale, locales } from "../i18n";
+
+	let browserLanguage = "de";
+  locale.set(browserLanguage);
 </script>
 
 <!-- App Shell -->
