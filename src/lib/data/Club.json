@@ -1,0 +1,27 @@
+[
+    {
+        "UUID": 123345,
+        "Name": "VFL Waiblingen",
+        "adress": "Beinsteinerstr. 160",
+        "halle": "Rundsporthalle"
+    },
+    {
+        "UUID": 123346,
+        "Name": "TSV Schmiden",
+        "adress": "Fellbacher Straße 45",
+        "halle": "Sporthalle am Schulzentrum"
+    },
+    { "UUID": 123347, "Name": "TV Oeffingen", "adress": "Kellerstraße 45", "halle": "Sporthalle" },
+    {
+        "UUID": 123347,
+        "Name": "HSC Schmoeff",
+        "adress": "Fellbacher Straße 45",
+        "halle": "Sporthalle am Schulzentrum"
+    },
+    {
+        "UUID": 123347,
+        "Name": "TV Bittenfeld",
+        "adress": "Bittenfelderstraße 120",
+        "halle": "Ballspielhalle"
+    }
+]
