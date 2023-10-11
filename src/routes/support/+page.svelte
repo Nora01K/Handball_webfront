@@ -1,11 +1,11 @@
 <script lang="ts">
 </script>
 
-<main class="flex items-center ml-[35vw]  justify-start float-none w-[30vw] h-[90vh]">
+<main class="flex items-center ml-[35vw] justify-start float-none w-[30vw] h-[90vh]">
 	<div class="card p-2">
 		<form>
 			<h1 class="h3">Send a Message</h1>
-            <label>
+			<label>
 				<span>Name</span>
 				<input class="input" type="text" placeholder="Max Mustermann" />
 			</label>
@@ -19,11 +19,11 @@
 			</label>
 			<label>
 				<span>Club</span>
-				<input class="input" type="text" placeholder="TSV Musterstadt"/>
+				<input class="input" type="text" placeholder="TSV Musterstadt" />
 			</label>
 			<label>
 				<span>Message</span>
-				<textarea class="textarea"  name="message" id="" cols="30" rows="6" />
+				<textarea class="textarea" name="message" id="" cols="30" rows="6" />
 			</label>
 			<button class="btn variant-filled-primary float-right" type="submit">Send</button>
 		</form>

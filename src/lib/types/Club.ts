@@ -1,6 +1,6 @@
-import type { UUID } from "crypto"
+import type { UUID } from 'crypto';
 
 export type ClubName = {
-    id: UUID,
-    name: String
-}
+	id: UUID;
+	name: String;
+};
