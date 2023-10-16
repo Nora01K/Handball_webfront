@@ -14,6 +14,9 @@ dependencies:
   svelte-i18n:
     specifier: ^3.7.0
     version: 3.7.0(svelte@3.59.2)
+  svelte-icons:
+    specifier: ^2.1.0
+    version: 2.1.0
 
 devDependencies:
   '@floating-ui/dom':
@@ -2264,6 +2267,10 @@ packages:
       sade: 1.8.1
       svelte: 3.59.2
       tiny-glob: 0.2.9
+    dev: false
+
+  /svelte-icons@2.1.0:
+    resolution: {integrity: sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==}
     dev: false
 
   /svelte-preprocess@5.0.4(postcss@8.4.28)(svelte@3.59.2)(typescript@5.1.6):
