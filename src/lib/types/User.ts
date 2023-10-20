@@ -1,4 +1,5 @@
 import type { UUID } from 'crypto';
+import type { Settings } from './Settings';
 
 export type User = {
 	id: UUID;
@@ -6,9 +7,8 @@ export type User = {
 	lastname: string;
 	gender: string;
 	password: string;
-	club_id: Number;
 	email: string;
 	role: string;
-	settings_id: Number;
+	settings: Settings;
 	active: Boolean;
 };

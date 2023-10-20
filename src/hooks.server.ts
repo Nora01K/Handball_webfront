@@ -4,7 +4,8 @@ import Credentials from '@auth/core/providers/credentials';
 import { redirect } from '@sveltejs/kit';
 
 import type { Handle } from '@sveltejs/kit';
-import type { User } from './lib/types/User';
+import type { User } from '@auth/core/types';
+
 
 export const handle = SvelteKitAuth(async (event) => {
 	const authOptions = {
@@ -18,14 +19,13 @@ export const handle = SvelteKitAuth(async (event) => {
 					let response_user: any;
 					let jsonUser: any;
 					let result: boolean = false;
-					const req_url = 'http://localhost:8080/login/' + credentials.email;
+					const req_url = 'http://localhost:8080/user/login/' + credentials.email;
 					try {
 						response_user = await fetch(req_url);
 						jsonUser = await response_user.json();
 					} catch (error) {
 						redirect(303, '/auth/signin');
 					}
-					console.log(jsonUser);
 
 					if (credentials.password == jsonUser.password) {
 						result = true;
@@ -33,14 +33,8 @@ export const handle = SvelteKitAuth(async (event) => {
 
 					if (result && jsonUser.active == true && jsonUser.role != 'Admin') {
 						return {
-							id: jsonUser.id,
 							email: jsonUser.email,
-							firstname: jsonUser.firstname,
-							lastname: jsonUser.lastname,
-							gender: jsonUser.gender,
-							role: jsonUser.role,
-							club_id: jsonUser.club_id,
-							settings_id: jsonUser.settings_id
+							name: jsonUser.firstname + '' +jsonUser.lastname
 						} as User;
 					} else {
 						return null;

@@ -1,6 +1,11 @@
-<script>
+<script lang="ts">
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import Sidebar from '../../components/Sidebar.svelte';
+	import type { PageData, ActionData } from './$types';
+	export let data: PageData;
+	const teamsFromUser = data.userInTeam
+
+	
 
 	const teams = [
 		{

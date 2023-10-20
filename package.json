@@ -43,6 +43,7 @@
 	"dependencies": {
 		"@auth/core": "^0.16.1",
 		"@auth/sveltekit": "^0.3.9",
+		"axios": "^1.5.1",
 		"svelte-i18n": "^3.7.0",
 		"svelte-icons": "^2.1.0"
 	}
